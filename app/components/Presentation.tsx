@@ -105,7 +105,27 @@ const slides: Slide[] = [
     ),
   },
 
-  // 4 — AI at Makat: Internal
+  // 4 — Two Tracks
+  {
+    title: "AI at Makat: Two Tracks",
+    accent: "from-emerald-500 to-pink-500",
+    icon: <Rocket className="w-14 h-14" />,
+    content: (
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8 max-w-3xl mx-auto">
+        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-white/10 text-center">
+          <h3 className="text-2xl font-semibold text-emerald-400 mb-2">Internal</h3>
+          <p className="text-neutral-400">How we work</p>
+        </div>
+        <span className="text-3xl text-neutral-600 font-bold">+</span>
+        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-white/10 text-center">
+          <h3 className="text-2xl font-semibold text-pink-400 mb-2">In the Product</h3>
+          <p className="text-neutral-400">How our operators work</p>
+        </div>
+      </div>
+    ),
+  },
+
+  // 5 — AI at Makat: Internal
   {
     title: "AI at Makat: Internal",
     accent: "from-emerald-500 to-teal-500",
