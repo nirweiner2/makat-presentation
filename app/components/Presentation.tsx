@@ -61,10 +61,21 @@ const slides: Slide[] = [
             Agent
           </span>
         </div>
-        <p className="text-lg text-neutral-400 text-center max-w-xl">
-          The <span className="text-cyan-400">harness</span> gives tools, memory, and the ability to act.
-          The <span className="text-blue-400">model</span> provides intelligence.
-          Together — an <span className="text-violet-400">agent</span> that gets work done.
+        <div className="w-full max-w-2xl">
+          <div className="relative h-2 rounded-full bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 mb-4" />
+          <div className="flex justify-between text-sm">
+            <div className="text-left max-w-[45%]">
+              <p className="font-semibold text-blue-400">Defined Workflows</p>
+              <p className="text-neutral-500">Human designs the steps, LLM executes</p>
+            </div>
+            <div className="text-right max-w-[45%]">
+              <p className="font-semibold text-fuchsia-400">Autonomous Agents</p>
+              <p className="text-neutral-500">LLM decides what to do and acts</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-sm text-neutral-500 text-center">
+          Most real-world AI sits somewhere in between.
         </p>
       </div>
     ),
