@@ -115,14 +115,16 @@ const slides: Slide[] = [
     icon: <Rocket className="w-14 h-14" />,
     content: (
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-8 max-w-3xl mx-auto">
-        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-white/10 text-center">
+        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-emerald-500/30 text-center">
+          <p className="text-sm font-mono text-emerald-400/60 mb-2">next slide</p>
           <h3 className="text-2xl font-semibold text-emerald-400 mb-2">Internal</h3>
           <p className="text-neutral-400">How we work</p>
         </div>
         <span className="text-3xl text-neutral-600 font-bold">+</span>
-        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-white/10 text-center">
-          <h3 className="text-2xl font-semibold text-pink-400 mb-2">In the Product</h3>
-          <p className="text-neutral-400">How our operators work</p>
+        <div className="flex-1 bg-white/5 rounded-2xl p-6 border border-purple-500/30 text-center">
+          <p className="text-sm font-mono text-purple-400/60 mb-2">then</p>
+          <h3 className="text-2xl font-semibold text-purple-400 mb-2">In the Product</h3>
+          <p className="text-neutral-400">The Makat Agent</p>
         </div>
       </div>
     ),
@@ -164,49 +166,7 @@ const slides: Slide[] = [
     ),
   },
 
-  // 6 — AI Won't Replace You
-  {
-    title: "AI Won't Replace You",
-    subtitle: "It Will Empower You",
-    accent: "from-yellow-500 to-orange-500",
-    icon: <Zap className="w-14 h-14" />,
-    content: (
-      <div className="max-w-3xl mx-auto mt-6 space-y-6 text-center">
-        <p className="text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-          Every person doing 10× more.
-        </p>
-        <p className="text-xl text-neutral-400">
-          Minimal hiring. Maximum impact per person.
-        </p>
-      </div>
-    ),
-  },
-
-  // 7 — Growing Pains
-  {
-    title: "It Won't Be Smooth",
-    subtitle: "And that's OK",
-    accent: "from-red-500 to-orange-500",
-    icon: <Zap className="w-14 h-14" />,
-    content: (
-      <div className="flex flex-col items-center gap-8 mt-6 max-w-2xl mx-auto text-center">
-        <p className="text-xl text-neutral-300">
-          New tools break old habits. There will be friction, mistakes, and
-          moments of doubt.
-        </p>
-        <div className="flex items-center gap-3 text-2xl font-semibold">
-          <span className="text-red-400">Awkward at first</span>
-          <span className="text-neutral-600">→</span>
-          <span className="text-orange-400">Second nature later</span>
-        </div>
-        <p className="text-lg text-neutral-500">
-          Every tool we rely on today was once the &quot;new thing.&quot;
-        </p>
-      </div>
-    ),
-  },
-
-  // 8 — Introducing the Makat Agent
+  // 6 — The Makat Agent
   {
     title: "The Makat Agent",
     subtitle: "AI inside the product — growing with us",
@@ -232,7 +192,49 @@ const slides: Slide[] = [
     ),
   },
 
-  // 8 — Q&A
+  // 7 — AI Won't Replace You
+  {
+    title: "AI Won't Replace You",
+    subtitle: "It Will Empower You",
+    accent: "from-yellow-500 to-orange-500",
+    icon: <Zap className="w-14 h-14" />,
+    content: (
+      <div className="max-w-3xl mx-auto mt-6 space-y-6 text-center">
+        <p className="text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+          Every person doing 10× more.
+        </p>
+        <p className="text-xl text-neutral-400">
+          Minimal hiring. Maximum impact per person.
+        </p>
+      </div>
+    ),
+  },
+
+  // 8 — Growing Pains
+  {
+    title: "It Won't Be Smooth",
+    subtitle: "And that's OK",
+    accent: "from-red-500 to-orange-500",
+    icon: <Zap className="w-14 h-14" />,
+    content: (
+      <div className="flex flex-col items-center gap-8 mt-6 max-w-2xl mx-auto text-center">
+        <p className="text-xl text-neutral-300">
+          New tools break old habits. There will be friction, mistakes, and
+          moments of doubt.
+        </p>
+        <div className="flex items-center gap-3 text-2xl font-semibold">
+          <span className="text-red-400">Awkward at first</span>
+          <span className="text-neutral-600">→</span>
+          <span className="text-orange-400">Second nature later</span>
+        </div>
+        <p className="text-lg text-neutral-500">
+          Every tool we rely on today was once the &quot;new thing.&quot;
+        </p>
+      </div>
+    ),
+  },
+
+  // Q&A
   {
     title: "Q & A",
     accent: "from-indigo-500 to-blue-500",
