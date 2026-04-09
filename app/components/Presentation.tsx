@@ -164,31 +164,6 @@ const slides: Slide[] = [
     ),
   },
 
-  // 5 — AI at Makat: In the Product
-  {
-    title: "AI in the Product",
-    subtitle: "Operators × AI = Scale",
-    accent: "from-pink-500 to-rose-500",
-    icon: <Users className="w-14 h-14" />,
-    content: (
-      <div className="grid md:grid-cols-3 gap-4 mt-6 max-w-4xl mx-auto">
-        {[
-          { title: "Automate the Routine", desc: "AI handles repetitive tasks" },
-          { title: "Smart Suggestions", desc: "Context-aware next actions" },
-          { title: "Scale Without Hiring", desc: "Same team, 10× output" },
-        ].map((item) => (
-          <div
-            key={item.title}
-            className="bg-white/5 rounded-xl p-5 border border-white/10"
-          >
-            <h4 className="font-semibold text-rose-300 mb-2">{item.title}</h4>
-            <p className="text-neutral-400 text-sm">{item.desc}</p>
-          </div>
-        ))}
-      </div>
-    ),
-  },
-
   // 6 — AI Won't Replace You
   {
     title: "AI Won't Replace You",
