@@ -133,19 +133,19 @@ const slides: Slide[] = [
     content: (
       <div className="grid md:grid-cols-2 gap-6 mt-6 max-w-3xl mx-auto">
         <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
-          <h3 className="text-lg font-semibold mb-3 text-emerald-400">Today</h3>
-          <ul className="space-y-2 text-neutral-300">
-            <li>✓ Claude for daily coding</li>
-            <li>✓ AI-assisted bug replies</li>
-            <li>✓ Faster code reviews</li>
+          <h3 className="text-lg font-semibold mb-3 text-neutral-500">Before</h3>
+          <ul className="space-y-3 text-neutral-400">
+            <li>Only engineers use AI</li>
+            <li>Bug investigation takes hours</li>
+            <li>Tools work in isolation</li>
           </ul>
         </div>
-        <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
-          <h3 className="text-lg font-semibold mb-3 text-teal-400">Next</h3>
-          <ul className="space-y-2 text-neutral-300">
-            <li>→ Adoption across all teams</li>
-            <li>→ Deeper tool integrations</li>
-            <li>→ AI for every team member</li>
+        <div className="bg-white/5 rounded-2xl p-6 border border-emerald-500/20">
+          <h3 className="text-lg font-semibold mb-3 text-emerald-400">After</h3>
+          <ul className="space-y-3 text-neutral-200">
+            <li>Every team member has AI</li>
+            <li>Bug investigation in minutes</li>
+            <li>AI woven into every tool</li>
           </ul>
         </div>
       </div>
