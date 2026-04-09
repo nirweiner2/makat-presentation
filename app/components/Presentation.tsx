@@ -69,7 +69,6 @@ const slides: Slide[] = [
             <span className="text-fuchsia-400">Fully Autonomous</span>
           </div>
         </div>
-        </p>
       </div>
     ),
   },
