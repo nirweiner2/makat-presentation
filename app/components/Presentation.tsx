@@ -131,21 +131,29 @@ const slides: Slide[] = [
     accent: "from-emerald-500 to-teal-500",
     icon: <Zap className="w-14 h-14" />,
     content: (
-      <div className="grid md:grid-cols-2 gap-6 mt-6 max-w-3xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-4 mt-6 max-w-4xl mx-auto">
         <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
           <h3 className="text-lg font-semibold mb-3 text-neutral-500">Before</h3>
-          <ul className="space-y-3 text-neutral-400">
-            <li>Only engineers use AI</li>
-            <li>Bug investigation takes hours</li>
-            <li>Tools work in isolation</li>
+          <ul className="space-y-3 text-neutral-500">
+            <li>No AI in workflows</li>
+            <li>Everything manual</li>
           </ul>
         </div>
-        <div className="bg-white/5 rounded-2xl p-6 border border-emerald-500/20">
-          <h3 className="text-lg font-semibold mb-3 text-emerald-400">After</h3>
+        <div className="bg-white/5 rounded-2xl p-6 border border-teal-500/30">
+          <h3 className="text-lg font-semibold mb-3 text-teal-400">Now</h3>
+          <ul className="space-y-3 text-neutral-300">
+            <li>Engineers code with Claude</li>
+            <li>AI-assisted bug fixes</li>
+            <li>Partial adoption in other teams</li>
+            <li className="text-sm italic text-teal-400/70">This presentation was built with AI</li>
+          </ul>
+        </div>
+        <div className="bg-white/5 rounded-2xl p-6 border border-emerald-500/30">
+          <h3 className="text-lg font-semibold mb-3 text-emerald-400">Next</h3>
           <ul className="space-y-3 text-neutral-200">
-            <li>Every team member has AI</li>
-            <li>Bug investigation in minutes</li>
-            <li>AI woven into every tool</li>
+            <li>Every team member uses AI</li>
+            <li>AI embedded in every tool</li>
+            <li>Everyone more efficient</li>
           </ul>
         </div>
       </div>
