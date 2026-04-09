@@ -62,20 +62,13 @@ const slides: Slide[] = [
           </span>
         </div>
         <div className="w-full max-w-2xl">
-          <div className="relative h-2 rounded-full bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 mb-4" />
-          <div className="flex justify-between text-sm">
-            <div className="text-left max-w-[45%]">
-              <p className="font-semibold text-blue-400">Defined Workflows</p>
-              <p className="text-neutral-500">Human designs the steps, LLM executes</p>
-            </div>
-            <div className="text-right max-w-[45%]">
-              <p className="font-semibold text-fuchsia-400">Autonomous Agents</p>
-              <p className="text-neutral-500">LLM decides what to do and acts</p>
-            </div>
+          <div className="relative h-2 rounded-full bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 mb-3" />
+          <div className="flex justify-between text-sm font-semibold">
+            <span className="text-blue-400">Defined Workflows</span>
+            <span className="text-neutral-500">← most AI lives here →</span>
+            <span className="text-fuchsia-400">Fully Autonomous</span>
           </div>
         </div>
-        <p className="text-sm text-neutral-500 text-center">
-          Most real-world AI sits somewhere in between.
         </p>
       </div>
     ),
