@@ -135,8 +135,9 @@ const slides: Slide[] = [
         <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
           <h3 className="text-lg font-semibold mb-3 text-neutral-500">Before</h3>
           <ul className="space-y-3 text-neutral-500">
-            <li>No AI in workflows</li>
-            <li>Everything manual</li>
+            <li>Quote processing</li>
+            <li>Basic code autocomplete</li>
+            <li>Scattered SaaS tools</li>
           </ul>
         </div>
         <div className="bg-white/5 rounded-2xl p-6 border border-teal-500/30">
